@@ -21,6 +21,10 @@
 		97163EE5197F96BD00E4DBCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97163EC7197F96BD00E4DBCF /* UIKit.framework */; };
 		97163EED197F96BD00E4DBCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97163EEB197F96BD00E4DBCF /* InfoPlist.strings */; };
 		97163EEF197F96BD00E4DBCF /* SwiperTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97163EEE197F96BD00E4DBCF /* SwiperTestTests.m */; };
+		97163EFC197FB9A700E4DBCF /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 97163EF8197FB9A700E4DBCF /* arrowDown.png */; };
+		97163EFD197FB9A700E4DBCF /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 97163EF9197FB9A700E4DBCF /* arrowLeft.png */; };
+		97163EFE197FB9A700E4DBCF /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 97163EFA197FB9A700E4DBCF /* arrowRight.png */; };
+		97163EFF197FB9A700E4DBCF /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 97163EFB197FB9A700E4DBCF /* arrowUp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		97163EEA197F96BD00E4DBCF /* SwiperTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiperTestTests-Info.plist"; sourceTree = "<group>"; };
 		97163EEC197F96BD00E4DBCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97163EEE197F96BD00E4DBCF /* SwiperTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperTestTests.m; sourceTree = "<group>"; };
+		97163EF8197FB9A700E4DBCF /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
+		97163EF9197FB9A700E4DBCF /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
+		97163EFA197FB9A700E4DBCF /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
+		97163EFB197FB9A700E4DBCF /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,10 @@
 		97163ECA197F96BD00E4DBCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97163EF8197FB9A700E4DBCF /* arrowDown.png */,
+				97163EF9197FB9A700E4DBCF /* arrowLeft.png */,
+				97163EFA197FB9A700E4DBCF /* arrowRight.png */,
+				97163EFB197FB9A700E4DBCF /* arrowUp.png */,
 				97163ECB197F96BD00E4DBCF /* SwiperTest-Info.plist */,
 				97163ECC197F96BD00E4DBCF /* InfoPlist.strings */,
 				97163ECF197F96BD00E4DBCF /* main.m */,
@@ -228,9 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97163EFE197FB9A700E4DBCF /* arrowRight.png in Resources */,
 				97163EDC197F96BD00E4DBCF /* Images.xcassets in Resources */,
+				97163EFD197FB9A700E4DBCF /* arrowLeft.png in Resources */,
 				97163ECE197F96BD00E4DBCF /* InfoPlist.strings in Resources */,
 				97163ED7197F96BD00E4DBCF /* Main.storyboard in Resources */,
+				97163EFF197FB9A700E4DBCF /* arrowUp.png in Resources */,
+				97163EFC197FB9A700E4DBCF /* arrowDown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
